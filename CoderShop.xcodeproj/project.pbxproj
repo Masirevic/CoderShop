@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		88ADE71C1F45E179005261EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE71B1F45E179005261EB /* AppDelegate.swift */; };
-		88ADE71E1F45E179005261EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE71D1F45E179005261EB /* ViewController.swift */; };
+		88ADE71E1F45E179005261EB /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE71D1F45E179005261EB /* CategoriesVC.swift */; };
 		88ADE7211F45E179005261EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88ADE71F1F45E179005261EB /* Main.storyboard */; };
 		88ADE7231F45E179005261EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ADE7221F45E179005261EB /* Assets.xcassets */; };
 		88ADE7261F45E179005261EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88ADE7241F45E179005261EB /* LaunchScreen.storyboard */; };
 		88ADE7311F45E179005261EB /* CoderShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE7301F45E179005261EB /* CoderShopTests.swift */; };
 		88ADE73C1F45E179005261EB /* CoderShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE73B1F45E179005261EB /* CoderShopUITests.swift */; };
+		88ADE74D1F45EA69005261EB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE74C1F45EA69005261EB /* CategoryCell.swift */; };
+		88ADE74F1F45F424005261EB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE74E1F45F424005261EB /* Category.swift */; };
+		88ADE7541F45F72D005261EB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE7531F45F72D005261EB /* DataService.swift */; };
+		88ADE7561F462702005261EB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE7551F462702005261EB /* ProductCell.swift */; };
+		88ADE7581F462A58005261EB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE7571F462A58005261EB /* Product.swift */; };
+		88ADE75A1F463349005261EB /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADE7591F463349005261EB /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		88ADE7181F45E179005261EB /* CoderShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88ADE71B1F45E179005261EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88ADE71D1F45E179005261EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88ADE71D1F45E179005261EB /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		88ADE7201F45E179005261EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88ADE7221F45E179005261EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88ADE7251F45E179005261EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		88ADE7371F45E179005261EB /* CoderShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoderShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88ADE73B1F45E179005261EB /* CoderShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoderShopUITests.swift; sourceTree = "<group>"; };
 		88ADE73D1F45E179005261EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ADE74C1F45EA69005261EB /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		88ADE74E1F45F424005261EB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		88ADE7531F45F72D005261EB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		88ADE7551F462702005261EB /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		88ADE7571F462A58005261EB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		88ADE7591F463349005261EB /* ProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,11 @@
 		88ADE71A1F45E179005261EB /* CoderShop */ = {
 			isa = PBXGroup;
 			children = (
+				88ADE7501F45F58C005261EB /* Service */,
+				88ADE74B1F45E9A0005261EB /* Views */,
+				88ADE74A1F45E996005261EB /* Model */,
+				88ADE7491F45E97B005261EB /* Conntroller */,
 				88ADE71B1F45E179005261EB /* AppDelegate.swift */,
-				88ADE71D1F45E179005261EB /* ViewController.swift */,
 				88ADE71F1F45E179005261EB /* Main.storyboard */,
 				88ADE7221F45E179005261EB /* Assets.xcassets */,
 				88ADE7241F45E179005261EB /* LaunchScreen.storyboard */,
@@ -123,6 +138,41 @@
 				88ADE73D1F45E179005261EB /* Info.plist */,
 			);
 			path = CoderShopUITests;
+			sourceTree = "<group>";
+		};
+		88ADE7491F45E97B005261EB /* Conntroller */ = {
+			isa = PBXGroup;
+			children = (
+				88ADE71D1F45E179005261EB /* CategoriesVC.swift */,
+				88ADE7591F463349005261EB /* ProductVC.swift */,
+			);
+			name = Conntroller;
+			sourceTree = "<group>";
+		};
+		88ADE74A1F45E996005261EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88ADE74E1F45F424005261EB /* Category.swift */,
+				88ADE7571F462A58005261EB /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		88ADE74B1F45E9A0005261EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88ADE74C1F45EA69005261EB /* CategoryCell.swift */,
+				88ADE7551F462702005261EB /* ProductCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		88ADE7501F45F58C005261EB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				88ADE7531F45F72D005261EB /* DataService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88ADE71E1F45E179005261EB /* ViewController.swift in Sources */,
+				88ADE71E1F45E179005261EB /* CategoriesVC.swift in Sources */,
+				88ADE74F1F45F424005261EB /* Category.swift in Sources */,
 				88ADE71C1F45E179005261EB /* AppDelegate.swift in Sources */,
+				88ADE7561F462702005261EB /* ProductCell.swift in Sources */,
+				88ADE75A1F463349005261EB /* ProductVC.swift in Sources */,
+				88ADE74D1F45EA69005261EB /* CategoryCell.swift in Sources */,
+				88ADE7541F45F72D005261EB /* DataService.swift in Sources */,
+				88ADE7581F462A58005261EB /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +563,7 @@
 				88ADE7421F45E179005261EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88ADE7431F45E179005261EB /* Build configuration list for PBXNativeTarget "CoderShopTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +572,7 @@
 				88ADE7451F45E179005261EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88ADE7461F45E179005261EB /* Build configuration list for PBXNativeTarget "CoderShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +581,7 @@
 				88ADE7481F45E179005261EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
